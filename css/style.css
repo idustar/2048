@@ -1,0 +1,110 @@
+.ui-loader-default{ display:none}
+
+
+html,body,div{
+    height:100%}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+div {
+    font-family: "Segoe UI",Arial,Helvetica,"Microsoft Jhenghei","Hiragino Sans GB","WenQuanYi Zen Hei","Microsoft Yahei",SimHei,STHeiti,"WenQuanYi Micro Hei",sans-serif;
+}
+
+div.header{
+    background-color: dodgerblue;
+    height:80px;
+    text-align: center;
+    font-size:60px;
+    color: white;
+    padding-top: 15px;
+}
+
+div.infomation {
+    background-color: lightslategrey;
+    height:30px;
+    font-size: 20px;
+    color:white;
+    text-align:center;
+}
+
+div.infomation score {
+    background: greenyellow;
+    color: dodgerblue;
+    height:30px;
+    font-size: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    border-radius:15px;
+}
+
+
+div.header2{
+    height:60px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+span.buttons {
+    padding: 5px 30px 5px 30px;
+    font-size: 20px;
+    background-color: deepskyblue;
+    color: white;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    height:30px;
+    text-align: center;
+    cursor:pointer
+}
+
+span.buttons:hover {
+    background-color: brown;
+}
+
+div.content {
+    background-color: cadetblue;
+    height: 70%;
+}
+
+div.footer {
+    background-color: brown;
+    height: 5%;
+}
+
+div#gamecontainer {
+    padding: 2% auto;
+    margin: 10% auto;
+    position:relative;
+    width:460px;
+    height:460px;
+    border-radius:1em;
+    background-color: #1d74ff;
+}
+
+.cell {
+    width:100px;
+    height:100px;
+    border-radius:6px;
+    background-color: #14a2ff;
+    position:absolute;
+}
+
+.number {
+    border-radius:6px;
+    width:100px;
+    height:100px;
+    font-family:Arial;
+    font-weight:bold;
+    font-size:60px;
+    line-height:100px;
+    text-align:center;
+    position:absolute;
+}
